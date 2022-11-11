@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.약:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* 비디오 */
+.비디오전체 {
+    width: 80%;
+    margin: auto;
+}
+
+.비디오전체 video {
+    width: 100%;
+}
+
+.main {
+    background-color: #a084ca;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.main .첫째 {
+    background-color: #fa949a;
+    margin-top: 30px;
+}
+
+.main .첫째 .첫째손 {
+    float: left;
+    height: 200px;
+    width: 49%;
+}
+
+.main .첫째 .자식1 {
+    background-color: #483838;
+    margin-right: 2%;
+}
+
+.main .첫째 .자식2 {
+    background-color: #c55300;
+}
+
+.main .둘째 {
+    background-color: #ff577f;
+    margin-top: 30px;
+}
+
+.main .둘째 .둘째손 {
+    float: left;
+    height: 200px;
+    background-color: #256d85;
+    width: 33.33%;
+}
+
+/* .main .둘째 .둘째손.둘자식1{} */
+.main .둘째 .자식1 {
+    background-color: #00ffd1;
+}
+
+.main .둘째 .자식2 {
+    background-color: #f96666;
+}
+
+.main .둘째 .자식3 {
+    background-color: #87a2fb;
+}
+
+.main .둘째 .막내 {
+    clear: both
+}
+
+.main .셋째 {
+    background-color: #cdf0ea;
+    margin-top: 30px;
+}
+
+.main .셋째 iframe {
+    width: 100%;
+
+}
+
+.main .넷째 {
+    background-color: #ecc5fb;
+    margin-top: 30px;
+}
+
+.main .넷째 .넷째손 {
+    float: left;
+    background-color: #e80f88;
+    width: 23.5%;
+    height: 200px;
+    margin-right: 2%;
+}
+
+.main .넷째 .넷자손1 {
+    background-color: #1c6758;
+}
+
+.main .넷째 .넷자손2 {
+    background-color: #c98474;
+}
+
+.main .넷째 .넷자손3 {
+    background-color: #fecd70;
+}
+
+.main .넷째 .넷자손4 {
+    background-color: #a62349;
+    margin-right: 0;
+}
